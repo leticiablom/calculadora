@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="title">Calculadora</div>
+    <div id="container">
+      <div id="soma">
+        <h1>Soma</h1>
+        <input type="number" name="txtsum1" id="txtsum1" /> +
+        <input type="number" name="txtsum2" id="txtsum2" />
+        <input type="button" value="Somar" onclick="somar()" />
+        <div id="resSum"></div>
+      </div>
+      <div id="subtracao">
+        <h1>Subtração</h1>
+        <input type="number" name="txtsub1" id="txtsub1" /> -
+        <input type="number" name="txtsub2" id="txtsub2" />
+        <input type="button" value="Calcular" onclick="subtrair()" />
+        <div id="resSub"></div>
+      </div>
+      <div id="multiplicacao">
+        <h1>Multiplição</h1>
+        <input type="number" name="txtmult1" id="txtmult1" /> *
+        <input type="number" name="txtmult2" id="txtmult2" />
+        <input type="button" value="Calcular" onclick="multiplicar()" />
+        <div id="resMult"></div>
+      </div>
+      <div id="divisao">
+        <h1>Divisão</h1>
+        <input type="number" name="txtdiv1" id="txtdiv1" /> /
+        <input type="number" name="txtdiv2" id="txtdiv2" />
+        <input type="button" value="Calcular" onclick="dividir()" />
+        <div id="resDiv"></div>
+      </div>
+      <div id="potencia">
+        <h1>Potencia</h1>
+        <input type="number" name="txtpot1" id="txtpot1" /> ^
+        <input type="number" name="txtpot2" id="txtpot2" />
+        <input type="button" value="Calcular" onclick="potencia()" />
+        <div id="resPot"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

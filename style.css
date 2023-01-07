@@ -1,0 +1,50 @@
+body {
+    font: normal 10pt Arial;
+  }
+  input {
+    font: normal 10pt Arial;
+    width: 100px;
+  }
+  
+  div#title {
+    font: normal 30pt Arial;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  div#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+  
+    background: rgb(233, 136, 168);
+    padding: 40px;
+    border-radius: 20px;
+  }
+  
+  div#resSum,
+  div#resSub,
+  div#resMult,
+  div#resDiv,
+  div#resPot {
+    font: normal 15pt Arial;
+    margin-top: 10px;
+  }
+  
+  @media (max-width:800px){
+      div#title{
+          margin-top: 10px;
+      }
+      
+      div#container {
+          display:block;
+          margin-top: 30px;
+          width: auto;
+      }
+  }
+  
